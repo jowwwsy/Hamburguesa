@@ -14,6 +14,7 @@
 		E3A189F61D848E6100C6A74E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A189F41D848E6100C6A74E /* LaunchScreen.storyboard */; };
 		E3A18A011D848E6100C6A74E /* HamburguesaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A18A001D848E6100C6A74E /* HamburguesaTests.swift */; };
 		E3A18A0C1D848E6100C6A74E /* HamburguesaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A18A0B1D848E6100C6A74E /* HamburguesaUITests.swift */; };
+		E3A18A201D84D4E400C6A74E /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A18A1F1D84D4E400C6A74E /* Dados.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E3A18A071D848E6100C6A74E /* HamburguesaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HamburguesaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A18A0B1D848E6100C6A74E /* HamburguesaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburguesaUITests.swift; sourceTree = "<group>"; };
 		E3A18A0D1D848E6100C6A74E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3A18A1F1D84D4E400C6A74E /* Dados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dados.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				E3A189F21D848E6100C6A74E /* Assets.xcassets */,
 				E3A189F41D848E6100C6A74E /* LaunchScreen.storyboard */,
 				E3A189F71D848E6100C6A74E /* Info.plist */,
+				E3A18A1F1D84D4E400C6A74E /* Dados.swift */,
 			);
 			path = Hamburguesa;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3A189EE1D848E6100C6A74E /* ViewController.swift in Sources */,
+				E3A18A201D84D4E400C6A74E /* Dados.swift in Sources */,
 				E3A189EC1D848E6100C6A74E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +405,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Hamburguesa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JB.Hamburguesa;
@@ -412,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Hamburguesa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JB.Hamburguesa;

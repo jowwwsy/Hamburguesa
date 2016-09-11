@@ -10,6 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var mensagemNacionalidade: UILabel!
+    @IBOutlet weak var mensagemTipo: UILabel!
+
+    let colores = Colores()
+    let pais = ColeccionDePaises()
+    let hamburger = ColeccionDeHamburguesa()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +30,17 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func Sorteio() {
+        mensagemNacionalidade.text = pais.regresaPaisAleatorio()
+        mensagemTipo.text = hamburger.regresaHamburgerAleatorio()
+        
+        let colorAleatorio = colores.regresaColorAleatorio()
+        view.backgroundColor = colorAleatorio
+        view.tintColor = colorAleatorio
+
+        
+        
+        
+    }
 }
 
